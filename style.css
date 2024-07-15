@@ -823,4 +823,11 @@ footer {
   .turn {
     height: 110px;
   }
+  .user-icon {
+    width: 60px;
+    height: 60px;
+  }
+  header {
+    height: 135px;
+  }
 }
