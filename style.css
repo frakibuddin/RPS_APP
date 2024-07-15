@@ -763,7 +763,17 @@ footer {
 
 @media (max-width: 450px) {
   .app-wrapper {
-    height: 1550px;
+    height: auto;
+  }
+  .invite-friend-box {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .bet-count {
+    margin-bottom: 100px;
+  }
+  .bet-hands .hand {
+    margin-top: 180px;
   }
   .nav-item {
     width: 80px;
