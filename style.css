@@ -94,7 +94,6 @@ body {
   -webkit-transform: translateX(30%) rotate(-45deg);
   -ms-transform: translateX(30%) rotate(-45deg);
   transform: translateX(30%) rotate(-45deg);
-  height: 267px;
   width: 197px;
 }
 .l-hands .five-finger {
@@ -103,7 +102,6 @@ body {
   -webkit-transform: translateX(-15%) rotate(45deg);
   -ms-transform: translateX(-15%) rotate(45deg);
   transform: translateX(-15%) rotate(45deg);
-  height: 270px;
   width: 239px;
 }
 .l-hands .four-finger {
@@ -113,7 +111,6 @@ body {
   -ms-transform: translateX(-50%) rotate(180deg);
   transform: translateX(-50%) rotate(180deg);
   width: 246px;
-  height: 263px;
 }
 .l-text {
   text-align: center;
@@ -625,4 +622,165 @@ footer {
   width: 395px;
   height: 100px;
   cursor: pointer;
+}
+
+@media (max-width: 998px) {
+  .bet-hands .hand {
+    width: 200px;
+    height: 200px;
+    border-radius: 55px;
+  }
+  .invite-friend-box {
+    width: 90%;
+  }
+  .heading {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .nav-item {
+    width: 120px;
+    height: 120px;
+  }
+  .nav-item img {
+    width: 60%;
+  }
+  footer,
+  .bet-hands {
+    gap: 30px;
+  }
+  .bet-count {
+    margin-bottom: 220px;
+  }
+  .bet-hands .hand {
+    width: 170px;
+    height: 170px;
+  }
+  .heading h2 {
+    font-size: 250%;
+  }
+}
+@media (max-width: 720px) {
+  .app-wrapper {
+    max-width: 1080px;
+  }
+  .spin {
+    width: 250px;
+    height: 250px;
+  }
+  .l-hands .four-finger {
+    width: 140px;
+    height: auto;
+    top: -285px;
+  }
+  .l-hands .five-finger {
+    width: 140px;
+  }
+  .l-hands .two-finger {
+    width: 120px;
+  }
+  .l-text h2 {
+    font-size: 50px;
+  }
+  .l-text h3 {
+    font-size: 30px;
+  }
+  .progres-bar {
+    width: 70%;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .usr-text h2 {
+    font-size: 22px;
+  }
+  .usr-text p {
+    font-size: 18px;
+  }
+  .inner-box::-webkit-scrollbar {
+    width: 20px;
+  }
+  .cross-btn {
+    width: 60px;
+    height: 60px;
+  }
+  .cross-btn img {
+    width: 80%;
+  }
+  .cl-btn button {
+    width: 110%;
+    font-size: 25px;
+  }
+}
+@media (max-width: 665px) {
+  /* .app-wrapper {
+    height: auto;
+  } */
+  .turn {
+    width: 80%;
+  }
+  .turn h3 {
+    font-size: 40px;
+  }
+  .user-icon {
+    width: 78px;
+    height: 78px;
+  }
+  .user-icon img {
+    width: 85%;
+  }
+  .user-detail div {
+    width: 150px;
+    font-size: 16px;
+  }
+  .bet-hands .hand {
+    width: 120px;
+    height: 120px;
+    border-width: 5px !important;
+  }
+  .bet-hands .hand {
+    border-radius: 35px;
+  }
+  .nav-item {
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+    border: 5px solid #00ffff;
+  }
+  footer {
+    height: 160px;
+  }
+  .invite-friend-box {
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .turn h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-item {
+    width: 80px;
+    height: 80px;
+  }
+  .user-detail div {
+    width: 125px;
+  }
+  .bet-hands .hand {
+    width: 100px;
+    height: 100px;
+  }
+  footer,
+  .bet-hands {
+    gap: 20px;
+  }
+  .bet-count {
+    width: 85%;
+  }
+  .heading h2 {
+    font-size: 180%;
+  }
 }
