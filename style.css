@@ -772,9 +772,13 @@ footer {
   .bet-count {
     margin-bottom: 100px;
   }
-  .bet-hands .hand {
-    margin-top: 180px;
+  .bet-hands {
+    height: 500px;
   }
+  .bet-hands .hand {
+    margin-top: 0px;
+  }
+
   .nav-item {
     width: 80px;
     height: 80px;
